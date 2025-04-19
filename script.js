@@ -25,6 +25,7 @@ function init() {
     //1. Genera el código random del master
     numIntentosUsuari = parseInt(prompt("Introduce la cantidad de intentos que quiere:"));
 
+    
     //cada que se reinicie se limpiara el inputBox 
     const inputBox = document.getElementById("combiText");
     inputBox.value = ""
